@@ -85,6 +85,7 @@
             this.tbVolume.Name = "tbVolume";
             this.tbVolume.Size = new System.Drawing.Size(106, 20);
             this.tbVolume.TabIndex = 10;
+            this.tbVolume.TextChanged += new System.EventHandler(this.tbVolume_TextChanged);
             // 
             // tbCapacity
             // 
@@ -92,6 +93,7 @@
             this.tbCapacity.Name = "tbCapacity";
             this.tbCapacity.Size = new System.Drawing.Size(106, 20);
             this.tbCapacity.TabIndex = 9;
+            this.tbCapacity.TextChanged += new System.EventHandler(this.tbCapacity_TextChanged);
             // 
             // tbSpeed
             // 

@@ -60,6 +60,29 @@ namespace lab_8
 
         private void tbSpeed_TextChanged(object sender, EventArgs e)
         {
+            if (System.Text.RegularExpressions.Regex.IsMatch(tbSpeed.Text, "[^0-9]"))
+            {
+                MessageBox.Show("Заборонено використання літер.", "Помилка", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                tbSpeed.Text = tbSpeed.Text.Remove(tbSpeed.Text.Length - 1);
+            }
+        }
+
+        private void tbCapacity_TextChanged(object sender, EventArgs e)
+        {
+            if (System.Text.RegularExpressions.Regex.IsMatch(tbCapacity.Text, "[^0-9]"))
+            {
+                MessageBox.Show("Заборонено використання літер.", "Помилка", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                tbCapacity.Text = tbCapacity.Text.Remove(tbCapacity.Text.Length - 1);
+            }
+        }
+
+        private void tbVolume_TextChanged(object sender, EventArgs e)
+        {
+            if (System.Text.RegularExpressions.Regex.IsMatch(tbVolume.Text, "[^0-9]"))
+            {
+                MessageBox.Show("Заборонено використання літер.", "Помилка", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                tbVolume.Text = tbVolume.Text.Remove(tbVolume.Text.Length - 1);
+            }
 
         }
     }
