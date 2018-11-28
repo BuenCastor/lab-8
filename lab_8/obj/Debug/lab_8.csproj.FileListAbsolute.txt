@@ -1,0 +1,11 @@
+C:\Users\ARTEM\source\repos\lab_8\lab_8\bin\Debug\lab_8.exe.config
+C:\Users\ARTEM\source\repos\lab_8\lab_8\bin\Debug\lab_8.exe
+C:\Users\ARTEM\source\repos\lab_8\lab_8\bin\Debug\lab_8.pdb
+C:\Users\ARTEM\source\repos\lab_8\lab_8\obj\Debug\lab_8.csprojAssemblyReference.cache
+C:\Users\ARTEM\source\repos\lab_8\lab_8\obj\Debug\lab_8.fMain.resources
+C:\Users\ARTEM\source\repos\lab_8\lab_8\obj\Debug\lab_8.Properties.Resources.resources
+C:\Users\ARTEM\source\repos\lab_8\lab_8\obj\Debug\lab_8.csproj.GenerateResource.cache
+C:\Users\ARTEM\source\repos\lab_8\lab_8\obj\Debug\lab_8.csproj.CoreCompileInputs.cache
+C:\Users\ARTEM\source\repos\lab_8\lab_8\obj\Debug\lab_8.exe
+C:\Users\ARTEM\source\repos\lab_8\lab_8\obj\Debug\lab_8.pdb
+C:\Users\ARTEM\source\repos\lab_8\lab_8\obj\Debug\lab_8.fDisk.resources
